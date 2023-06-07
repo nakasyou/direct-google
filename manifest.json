@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Dyrect Google",
+  "version": "0.1.0",
+  "description": "Use dyrect link in google",
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.google.com/*"],
+      "js": ["run.js"]
+    }
+  ]
+}
